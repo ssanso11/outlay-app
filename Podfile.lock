@@ -1,0 +1,214 @@
+PODS:
+  - Cache (4.2.0)
+  - Cosmos (13.0.0)
+  - Firebase (5.0.0):
+    - Firebase/Core (= 5.0.0)
+  - Firebase/Auth (5.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.0)
+  - Firebase/Core (5.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.0)
+  - Firebase/CoreOnly (5.0.0):
+    - FirebaseCore (= 5.0.0)
+  - Firebase/Database (5.0.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.0)
+  - Firebase/Messaging (5.0.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.0)
+  - Firebase/Storage (5.0.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.0)
+  - FirebaseAnalytics (5.0.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.0.0):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (5.0.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (5.0.0):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (3.0.0):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FSPagerView (0.7.2)
+  - GeoFire (3.0.0):
+    - Firebase/Database (~> 5.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GoogleWebRTC (1.1.20913)
+  - GTMSessionFetcher/Core (1.2.1)
+  - Hue (3.0.1)
+  - ImagePicker (3.1.0)
+  - ImageSlideshow (1.6.1):
+    - ImageSlideshow/Core (= 1.6.1)
+  - ImageSlideshow/Core (1.6.1)
+  - ImageSlideshow/Kingfisher (1.6.1):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - Imaginary (3.0.3):
+    - Cache (~> 4.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - Kingfisher (4.6.1)
+  - leveldb-library (1.20)
+  - libjingle_peerconnection (11177.2.0)
+  - Lightbox (2.1.2):
+    - Hue (~> 3.0)
+    - Imaginary (~> 3.0)
+  - Mapbox-iOS-SDK (4.6.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Protobuf (3.6.1)
+  - PryntTrimmerView (3.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SideMenu (5.0.3)
+  - SteviaLayout (4.4.0)
+  - TwilioVideo (1.3.8)
+  - "UITextView+Placeholder (1.2.0)"
+  - YPImagePicker (3.5.2):
+    - PryntTrimmerView (~> 3.0.0)
+    - SteviaLayout (~> 4.4.0)
+
+DEPENDENCIES:
+  - Cosmos
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - FSPagerView
+  - GeoFire (from `https://github.com/firebase/geofire-objc.git`)
+  - GoogleSignIn
+  - GoogleWebRTC
+  - ImagePicker
+  - ImageSlideshow
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - libjingle_peerconnection
+  - Lightbox
+  - Mapbox-iOS-SDK
+  - SDWebImage
+  - SideMenu
+  - TwilioVideo
+  - "UITextView+Placeholder"
+  - YPImagePicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cache
+    - Cosmos
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - FSPagerView
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleWebRTC
+    - GTMSessionFetcher
+    - Hue
+    - ImagePicker
+    - ImageSlideshow
+    - Imaginary
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - leveldb-library
+    - libjingle_peerconnection
+    - Lightbox
+    - Mapbox-iOS-SDK
+    - nanopb
+    - Protobuf
+    - PryntTrimmerView
+    - SDWebImage
+    - SideMenu
+    - SteviaLayout
+    - TwilioVideo
+    - "UITextView+Placeholder"
+    - YPImagePicker
+
+EXTERNAL SOURCES:
+  GeoFire:
+    :git: https://github.com/firebase/geofire-objc.git
+
+CHECKOUT OPTIONS:
+  GeoFire:
+    :commit: 7bc124db5d7c428bffe7ee4bd10ea9ad55f54523
+    :git: https://github.com/firebase/geofire-objc.git
+
+SPEC CHECKSUMS:
+  Cache: f28f8dd64b632155aabf9b3906b036a659048251
+  Cosmos: af3973becc045af335b64498c9812034876b7661
+  Firebase: 4bd804448ab2596794698773d41520a0af101e65
+  FirebaseAnalytics: 19812b49fa5f283dd6b23edf8a14b5d477029ab8
+  FirebaseAuth: acbeef02fe7c3a26624e309849f3fe30c84115af
+  FirebaseCore: e46e4babb9de298fb2f736958edcc6da1dc60d73
+  FirebaseDatabase: 697eb53e5b4fe7cd4fa8756c1f82a9fca011345f
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f2360a966ecfb0d14facf0fbdf306efc2df0ddbe
+  FirebaseStorage: 7ca4bb7b58a25fa647b04f524033fc7cb7eb272b
+  FSPagerView: 7515f63c424da71623d299d4fbbfb3dd884642ff
+  GeoFire: e3ae6f4be3f2466c3467ef6c1c203db3af935c59
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleWebRTC: 4fedeaecffeea1b93d994616c1cc728fac5c9a13
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  ImagePicker: db1fd7626337b2577c523bef5f499bbbe5a37079
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  Imaginary: 9b45836a5af881f452a86e0a1215772ae4712d00
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
+  Lightbox: 2dc267df8be2285bc7724cb11cbbf4aaaf59dced
+  Mapbox-iOS-SDK: 204c04713477cf2a88c52c5a8eed1790eb75a02a
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  PryntTrimmerView: 53ac64053c7ce63cb3e27f54090f52da0734891d
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SteviaLayout: dd74d1abd127bbf0ce346ac9430441684fe427d0
+  TwilioVideo: 228c53e8c97979de2e7eb67fafe314860040bcff
+  "UITextView+Placeholder": 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  YPImagePicker: 26d5bf7bfe1cffd1c5eedea3ac60422b314e2a42
+
+PODFILE CHECKSUM: 6d797290ce81ffce5529acc5138406aed800a021
+
+COCOAPODS: 1.5.3
